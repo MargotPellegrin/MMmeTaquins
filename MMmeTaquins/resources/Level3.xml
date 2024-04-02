@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Level3>
+	<Floor label="Sol" x="100" y="-30" width="30" length =" 200" color="Black"/>
+	<Bras label="bras1" x="0" y="5" up="false" color="Orange"/>
+	<Bras label="bras2" x="20" y="5" up="false" color="Orange"/>
+	<Bras label="bras3" x="40" y="-13.5" up="true" color="Orange"/>
+	<Bras label="bras4" x="60" y="5" up="false" color="Orange"/>
+	<Bras label="bras5" x="80" y="5" up="false" color="Orange"/>
+	<Bras label="bras6" x="100" y="-13.5" up="true" color="Orange"/>
+	<Bras label="bras7" x="120" y="-13.5" up="true" color="Orange"/>
+	<Bras label="bras8" x="140" y="5" up="false" color="Orange"/>
+	<Bras label="bras9" x="160" y="-13.5" up="true" color="Orange"/>
+	<Chipie label="chipielevel3" x="10" y="-10" speed="15" r="2" color="Green"/>
+</Level3>

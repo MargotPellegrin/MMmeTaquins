@@ -1,0 +1,7 @@
+// Les fichiers hint permettent à l'IDE Visual Studio d'interpréter les identificateurs Visual C++
+// tels que les noms de fonctions et de macros.
+// Pour plus d'informations, consultez https://go.microsoft.com/fwlink/?linkid=865984
+#define EXPECT_EQ(val1, val2) EXPECT_PRED_FORMAT2(::testing::internal::EqHelper::Compare, val1, val2)
+#define EXPECT_NE(val1, val2) EXPECT_PRED_FORMAT2(::testing::internal::CmpHelperNE, val1, val2)
+#define TEST(test_suite_name, test_name) GTEST_TEST(test_suite_name, test_name)
+#define TEST(name) TEST_FIXTURE(name, dummy_fixture)
